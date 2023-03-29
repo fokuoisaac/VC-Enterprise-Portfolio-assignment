@@ -1,0 +1,113 @@
+body {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: hsl(208, 44%, 38%);
+    background-color: hsl(0, 0%, 97%);
+    margin: 0;
+    padding: 0;
+}
+/* header section  */
+header h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+   color: hsl(208, 44%, 38%);
+   font-size: 1.2rem;
+   font-weight: 900;
+}
+
+/* hero banner section */
+#hero-banner  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 30rem;
+    width: 100%;
+    background-image: url("../resources/images/claudio-schwarz-Pu-REOmpjSI-unsplash.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3rem 0;
+}
+
+.banner {
+    padding-bottom: 2rem;
+    background-color: hsl(60, 29%, 91%);
+    width: 100%;
+    height: 20%;
+    opacity: 0.8;    
+}
+
+/* Portfolio Section */
+#portfolio {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* Image Section */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-container figure {
+    display: flex;
+    align-items: center;
+}
+
+.image-container figcaption {
+    font-weight: 600;
+    margin-left: 3rem;
+    
+}
+
+.image-container  img {
+    box-shadow: 5px 5px 5px hsl(0, 16%, 56%);
+}
+
+/* team section */
+#team h2{
+    text-align: center;
+}
+
+.our-team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("../resources/images/sean-pollock-PhYq704ffdA-unsplash.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.our-team figcaption {
+    text-align: center;
+    color: hsl(0, 0%, 97%);
+}
+
+.our-team img {
+    opacity: 1;
+}
+
+/* footer section */
+footer {
+    text-align: center;
+}
+
